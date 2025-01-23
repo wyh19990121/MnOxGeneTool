@@ -1,0 +1,3 @@
+version:    1.2.0
+created:    Fri Feb  1 18:11:20 2019
+input file: /bioinf/projects/megx/mg-traits/mg-traits_dev/new_traits/resources/single_copy_genes/data_seqs/all_single_copy.fa

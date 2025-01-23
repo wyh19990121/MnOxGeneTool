@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "mndb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/wangyuhan/HMMdb/db/mndb/mndb.fa",
+  "number-of-letters": 31348185,
+  "number-of-sequences": 45113,
+  "last-updated": "2024-08-22T00:18:00",
+  "number-of-volumes": 1,
+  "bytes-total": 38881730,
+  "bytes-to-cache": 31754323,
+  "files": [
+    "mndb.pdb",
+    "mndb.phr",
+    "mndb.pin",
+    "mndb.pog",
+    "mndb.pos",
+    "mndb.pot",
+    "mndb.psq",
+    "mndb.ptf",
+    "mndb.pto"
+  ]
+}

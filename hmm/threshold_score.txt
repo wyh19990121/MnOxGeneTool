@@ -1,0 +1,15 @@
+boxA	392.9
+copA	417.7
+cotA	461.5
+cueO	408.8
+katG	468.6
+mcoA	587.8
+mnxG_B	668.1
+mnxG_P	994.4
+mofA	906.9
+mokA	390.1
+mopA_R	858.3
+moxA	384
+mopA_A	1568
+mopA_E	1181.1
+mopA_P	1058.5
