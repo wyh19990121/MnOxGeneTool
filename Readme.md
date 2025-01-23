@@ -11,15 +11,15 @@ If you have any questions, please create an issue, or contact wyh (1365298466@qq
 
 ### **Prerequisites**
 A basic Linux shell environment is required to run the software. Additionally, users need to install the following software in advance:
-- `diamond>=2.0.15`
-- `blast>=2.15`
-- `samtools>=1.15`
-- `prodigal>=2.6.3`
-- `hmmsearch>=3.4`
-- `bwa mem`
-- `seqkit`
-- `FragGeneScanRs`
-- `uproc`
+- `Diamond>=2.0.15` [Diamond](https://github.com/bbuchfink/diamond)
+- `Blast>=2.15` [Blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+- `Samtools>=1.15` [Samtools](https://github.com/samtools/samtools)
+- `Prodigal>=2.6.3` [Prodigal](https://github.com/hyattpd/Prodigal)
+- `Hmmer>=3.4` [Prodigal](https://github.com/EddyRivasLab/hmmer)
+- `Bwa-mem2` [Bwa-mem2](https://github.com/bwa-mem2/bwa-mem2)
+- `Seqkit`[Seqkit](https://github.com/shenwei356/seqkit)
+- `FragGeneScanRs` [FragGeneScanRs](https://github.com/unipept/FragGeneScanRs)
+- `Uproc` [Uproc](https://github.com/gobics/uproc)
 
 Once the required software is installed, you can clone the repository using:
 ```bash
