@@ -1,4 +1,5 @@
 
+MnOxGeneTool is a product of the paper titled `"MnOxGeneTool: A Comprehensive Tool for Identifying and Quantifying Mn(II)-oxidizing Genes, Revealing Phylogenetic Diversity and Environmental Drivers of Mn(II)-oxidizers"` (currently under review). You can find more detailed information of the tool in the paper.
 MnOxGeneTool is a bioinformatics tool comprising two modules (MnOxGeneTool-hmm and MnOxGeneTool-abundance) based on a Mn(II)-oxidizing protein database containing homologous proteins of 15 non-redundant reported Mn(II)-oxidizing genes.
 MnOxGeneTool-hmm supports the input form of long DNA sequences (complete genomic sequences, contigs) or complete protein sequences for identifying gene sequences encoding Mn(II)-oxidizing proteins or Mn(II)-oxidizing proteins.
 MnOxGeneTool-abundance supports the input form of single-end or either end of paired-end metagenomic short reads data for calculating the abundance of Mn(II)-oxidizing genes in metagenomic datasets.
