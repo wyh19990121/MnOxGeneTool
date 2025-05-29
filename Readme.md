@@ -17,7 +17,7 @@ A basic Linux shell environment is required to run the software. Additionally, u
 - `Blast>=2.15` [Blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 - `Samtools>=1.15` [Samtools](https://github.com/samtools/samtools)
 - `Prodigal>=2.6.3` [Prodigal](https://github.com/hyattpd/Prodigal)
-- `Hmmer>=3.4` [Prodigal](https://github.com/EddyRivasLab/hmmer)
+- `Hmmer>=3.4` [Hmmer](https://github.com/EddyRivasLab/hmmer)
 - `Bwa-mem2` [Bwa-mem2](https://github.com/bwa-mem2/bwa-mem2)
 - `Seqkit`[Seqkit](https://github.com/shenwei356/seqkit)
 - `FragGeneScanRs` [FragGeneScanRs](https://github.com/unipept/FragGeneScanRs)
