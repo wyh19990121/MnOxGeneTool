@@ -11,32 +11,26 @@ If you have any questions, please create an issue, or contact wyh (1365298466@qq
 
 
 
-### **Prerequisites**
-A basic Linux shell environment is required to run the software. Additionally, users need to install the following software in advance:
-- `Diamond>=2.0.15` [Diamond](https://github.com/bbuchfink/diamond)
-- `Blast>=2.15` [Blast](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
-- `Samtools>=1.15` [Samtools](https://github.com/samtools/samtools)
-- `Prodigal>=2.6.3` [Prodigal](https://github.com/hyattpd/Prodigal)
-- `Hmmer>=3.4` [Hmmer](https://github.com/EddyRivasLab/hmmer)
-- `Bwa-mem2` [Bwa-mem2](https://github.com/bwa-mem2/bwa-mem2)
-- `Seqkit`[Seqkit](https://github.com/shenwei356/seqkit)
-- `FragGeneScanRs` [FragGeneScanRs](https://github.com/unipept/FragGeneScanRs)
-- `Uproc` [Uproc](https://github.com/gobics/uproc)
+### **Install**
+Users can install MnOxGeneTool via conda by following this procedure:
 
-Once the required software is installed, you can clone the repository using:
-```bash
-git clone https://github.com/wyh19990121/MnOxGeneTool.git
+Run the following command to create a new conda environment
 ```
-Then, navigate into the directory and run the following command:
-```bash
-bash initial.sh
+conda create -n MnOxGeneTool
 ```
-This command will create launch files under `/usr/local/bin`. Once the process completes, you can execute the corresponding functions anywhere in the system using `MnOxGeneTool-hmm` or `MnOxGeneTool-abundance`. 
 
-If you do not wish to create launch files under `/usr/local/bin`, you can use the `-i` option to store the launch files in any preferred folder. Afterward, you just need to add the path of that folder to your environment variable:
-```bash
-bash initial.sh -i /Path/You/Prefer
+Run the following command to install MnOxGeneTool
 ```
+conda install -c conda-forge -c bioconda -c wyh1365298466 mnoxgenetool
+```
+
+MnOxGeneTool also requires two dependencies: [Uproc](https://github.com/gobics/uproc) and [FragGeneScanRs](https://github.com/unipept/FragGeneScanRs). Users can install these tools by following the instructions in the provided links. After installation, either:
+
+Move uproc-prot and FragGeneScanRs to the /bin directory,
+
+Or add the directory containing uproc-prot and FragGeneScanRs to your environment variables.
+
+This will enable MnOxGeneTool to function properly.
 
 ---
 
