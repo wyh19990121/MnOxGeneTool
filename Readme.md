@@ -24,7 +24,32 @@ Run the following command to install MnOxGeneTool
 conda install -c conda-forge -c bioconda -c wyh1365298466 mnoxgenetool
 ```
 
-MnOxGeneTool also requires two dependencies: [Uproc](https://github.com/gobics/uproc) and [FragGeneScanRs](https://github.com/unipept/FragGeneScanRs). Users can install these tools by following the instructions in the provided links. After installation, either:
+MnOxGeneTool also requires two dependencies: [Uproc](https://github.com/gobics/uproc) and [FragGeneScanRs](https://github.com/unipept/FragGeneScanRs). Users can install these tools by following steps.
+
+1.[Uproc](https://github.com/gobics/uproc)
+
+Download
+```
+wget https://uproc.gobics.de/downloads/uproc/uproc-1.2.0.tar.gz
+tar -zxvf ./uproc-1.2.0.tar.gz
+```
+Install
+```
+cd ./uproc-1.2.0
+./configure
+make
+make install
+```
+
+2.[FragGeneScanRs](https://github.com/unipept/FragGeneScanRs) (Pre-compiled version, ready to use after downloading and extracting.)
+
+Download
+```
+wget https://github.com/unipept/FragGeneScanRs/releases/download/v1.1.0/FragGeneScanRs-v1.1.0-arm-unknown-linux-gnueabihf.tar.gz
+tar -zxvf ./FragGeneScanRs-v1.1.0-arm-unknown-linux-gnueabihf.tar.gz
+```
+
+After installation, either:
 
 Move uproc-prot and FragGeneScanRs to the /bin directory,
 
