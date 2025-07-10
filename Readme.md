@@ -17,6 +17,7 @@ Users can install MnOxGeneTool via conda by following this procedure:
 Run the following command to create a new conda environment
 ```
 conda create -n MnOxGeneTool
+conda activate MnOxGeneTool
 ```
 
 Run the following command to install MnOxGeneTool
