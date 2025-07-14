@@ -121,3 +121,6 @@ In this file, the first column shows the Mn(II)-oxidizing gene types detected in
 ---
 
 Feel free to reach out if you encounter any issues or need further assistance!
+
+Notice:
+Please note that this tool is permitted solely for non-commercial and academic purposes; any commercial usage necessitates obtaining consent from the developer team (Yuhan Wang, Email: 1365298466@qq.com).
