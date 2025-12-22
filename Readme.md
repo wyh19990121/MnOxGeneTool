@@ -124,3 +124,4 @@ Feel free to reach out if you encounter any issues or need further assistance!
 
 Notice:
 Please note that this tool is permitted solely for non-commercial and academic purposes; any commercial usage necessitates obtaining consent from the developer team (Yuhan Wang, Email: 1365298466@qq.com).
+If you run into any issues, feel free to join our QQ group （861120872） for help.
