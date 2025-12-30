@@ -73,18 +73,13 @@ This will enable MnOxGeneTool to function properly.
 ```bash
 MnOxGeneTool-hmm -i ./testdata/sequence.fa -o ./testdata -f fa -t 180
 ```
-In this example, the input file contains the full genomes of two microorganisms, `NC_010322.1` and `NZ_CP019304.1`. As it is genome data, the `-f` option is set to `fa`. The output is specified to be saved in the `testdata` folder, with the output file named automatically based on the input file name (e.g., `sequence_HMM_result`). The process will use 180 threads and retain intermediate files.
+In this example, the input file contains the full genomes of two microorganisms, `NC_010322.1` and `NZ_CP019304.1`. As it is genome data, the `-f` option is set to `fa`. The output is specified to be saved in the `testdata` folder, with the output file named automatically based on the input file name (e.g., `sequence_protein_count.tsv`). The process will use 180 threads and retain intermediate files.
 
-The output file `sequence_HMM_result` will look like this:
+The output file `sequence_protein_count.tsv` will look like this:
 ```
-NC_010322.1 katG 496.7
-NC_010322.1 mcoA 626.2
-NC_010322.1 mnxG_P 1031.3
-NC_010322.1 mopA_P 1281.2
-NZ_CP019304.1 boxA 437.0
-NZ_CP019304.1 boxA 441.8
-NZ_CP019304.1 boxA 446.7
-NZ_CP019304.1 katG 481.0
+Genome_ID    boxA    katG    mcoA    mnxG_P    mopA_P
+NC_010322.1    0    1    1    1    1
+NZ_CP019304.1    3    1    0    0    0
 ```
 Here, the first column represents the sequence information from the input FASTA file, the second column shows the identified gene type, and the third column is the corresponding score. In the genome `NZ_CP019304.1`, `boxA` appears three times, indicating three copies of the gene in the genome.
 
@@ -125,3 +120,4 @@ Feel free to reach out if you encounter any issues or need further assistance!
 Notice:
 Please note that this tool is permitted solely for non-commercial and academic purposes; any commercial usage necessitates obtaining consent from the developer team (Yuhan Wang, Email: 1365298466@qq.com).
 If you run into any issues, feel free to join our QQ group （861120872） for help.
+
