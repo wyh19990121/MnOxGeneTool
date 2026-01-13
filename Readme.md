@@ -115,9 +115,15 @@ In this file, the first column shows the Mn(II)-oxidizing gene types detected in
 
 ---
 
+### **Free Computational Service**
+Considering that some researchers lack access to server computing resources and are therefore unable to use this software to identify Mn(II)-oxidizing genes in genomes or quantify the abundance of Mn(II)-oxidizing genes in metagenomic datasets, we offer a free computational service.
+Interested researchers may send an email to Yuhan Wang (Email: 1365298466@qq.com) with a download link to their sequencing data (Baidu Netdisk is recommended) and a clear description of their analysis requirements. We will process the data promptly using our high-performance computing servers (3 nodes, each equipped with 192 CPU threads and 3 TB RAM) and return the results via email.
+
+
 Feel free to reach out if you encounter any issues or need further assistance!
 
 Notice:
 Please note that this tool is permitted solely for non-commercial and academic purposes; any commercial usage necessitates obtaining consent from the developer team (Yuhan Wang, Email: 1365298466@qq.com).
 If you run into any issues, feel free to join our QQ group （861120872） for help.
+
 
